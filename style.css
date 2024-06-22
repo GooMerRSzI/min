@@ -20,7 +20,8 @@
     object-fit: cover;
 }
 body {
-  background-image: url('background.jpg'); /* Replace with your image URL */  background-size: cover;
+  background-image: url('background.jpg'); /* Replace with your image URL */
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 1000% 1000%;
 }
