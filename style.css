@@ -2,23 +2,39 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
+    padding: 130px;
     color: white;
 }
 
+
+.con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 430px;
+    color: white;
+}
+
+.italic{
+
+    width: 700px;
+    height: 156px;
+}
+
+
 #showImageBtn {
-    width: 350px;
-    height: 56px;
-    border-radius: 30px;
+    width: 700px;
+    height: 156px;
+    border-radius: 60px;
     cursor: pointer;
     color: black;
     background: #FFFF00;
-    font-size:1,4vw;
+    font-size:1.7vw;
 }
 
 #randomImage {
-    max-width: 440px;
-    max-height: 400px;
+    width: 700px;
+    height: 700px;
     object-fit: cover;
 }
 body {
