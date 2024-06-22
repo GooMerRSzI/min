@@ -2,26 +2,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 30px;
     color: white;
 }
 
 #showImageBtn {
-    padding: 10px 20px;
-    margin-bottom: 20px;
+    padding: 100px 200px;
+    margin-bottom: 200px;
     cursor: pointer;
     border-radius: 30px;
-    color: black;
+    color: white;
+    background: #0B63F6;
+    box-shadow: 0 5px 0 #003CC5;
 }
 
 #randomImage {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 600px;
+    max-height: 600px;
     object-fit: cover;
 }
 body {
-  background-image: url('background.jpg'); /* Replace with your image URL */
-  background-position: center;
+  background-image: url('background.jpg'); /* Replace with your image URL */  background-position: center;
   background-repeat: no-repeat;
   background-size: 1000% 1000%;
 }
