@@ -10,11 +10,9 @@
     padding: 100px 200px;
     margin-bottom: 200px;
     cursor: pointer;
-    border-radius: 30px;
     color: white;
     background: #0B63F6;
-    box-shadow: 0 5px 0 #003CC5;
-    font-size:1.4vw;
+    font-size:1.7vw;
 }
 
 #randomImage {
