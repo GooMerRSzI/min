@@ -7,17 +7,17 @@
 }
 
 #showImageBtn {
-    padding: 100px 200px;
-    margin-bottom: 200px;
+    padding: 300px 300px;
+    margin-bottom: 600px;
     cursor: pointer;
     color: white;
     background: #0B63F6;
-    font-size:1.7vw;
+    font-size:2vw;
 }
 
 #randomImage {
-    max-width: 600px;
-    max-height: 600px;
+    max-width: 440px;
+    max-height: 400px;
     object-fit: cover;
 }
 body {
