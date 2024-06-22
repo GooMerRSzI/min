@@ -14,6 +14,7 @@
     color: white;
     background: #0B63F6;
     box-shadow: 0 5px 0 #003CC5;
+    font-size:1.4vw;
 }
 
 #randomImage {
@@ -22,7 +23,8 @@
     object-fit: cover;
 }
 body {
-  background-image: url('background.jpg'); /* Replace with your image URL */  background-position: center;
+  background-image: url('background.jpg'); /* Replace with your image URL */
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 1000% 1000%;
 }
