@@ -1,44 +1,45 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 130px;
-    color: white;
-}
-
-
-.con {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 430px;
-    color: white;
-}
-
-.italic{
-
-    width: 700px;
-    height: 156px;
-}
-
-
-#showImageBtn {
-    width: 700px;
-    height: 156px;
-    border-radius: 60px;
-    cursor: pointer;
-    color: black;
-    background: #FFFF00;
-    font-size:1.7vw;
-}
-
-#randomImage {
-    width: 700px;
-    height: 700px;
-    object-fit: cover;
-}
-body {
-  background-image: url('background.jpg'); /* Replace with your image URL */  background-position: center;
+/* Base styles for mobile-first approach */body {
+  margin: 0; /* Remove default margin for better control */  font-family: sans-serif; /* Set a basic font family */  background-image: url('background.jpg'); /* Replace with your image URL */  background-position: center;
   background-repeat: no-repeat;
-  background-size: 1000% 1000%;
+  background-size: cover; /* Ensure background covers entire viewport */  color: white; /* Set global text color */}
+
+/* Container for main content */.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; /* Adjust padding based on content and desired spacing */}
+
+/* Content element with adaptive width */.con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Allow content to fill available width */  padding: 20px; /* Adjust padding based on content and desired spacing */}
+
+/* Adaptive sizing for italic text */.italic {
+  font-style: italic;
+  font-size: 1.2rem; /* Use rem units for better responsiveness */  line-height: 1.5; /* Adjust line-height for readability */}
+
+/* Button with adaptive sizing and improved styling */#showImageBtn {
+  background-color: #FFFF00;
+  border-radius: 10px; /* Use consistent, rounder border radius */  cursor: pointer;
+  padding: 15px 30px; /* Add padding for better touch target */  font-size: 1rem; /* Use rem for better responsiveness */  text-align: center; /* Center text within button */  transition: background-color 0.2s ease-in-out; /* Smooth hover effect */}
+
+#showImageBtn:hover {
+  background-color: #ffd200; /* Slightly darker shade on hover */}
+
+/* Image with adaptive sizing and improved object-fit */#randomImage {
+  width: 100%; /* Allow image to fill available width */  height: auto; /* Maintain aspect ratio */  object-fit: contain; /* Ensure entire image is visible */  margin-bottom: 20px; /* Add spacing below the image */}
+
+/* Media queries for additional adjustments on larger screens (optional) */@media (min-width: 768px) {
+  .container {
+    padding: 40px; /* Increase padding on larger screens */  }
+
+  .italic {
+    font-size: 1.5rem; /* Adjust font size for better readability */  }
+
+  #showImageBtn {
+    font-size: 1.2rem; /* Adjust font size for better hierarchy */  }
+
+  #randomImage {
+    margin-bottom: 30px; /* Increase spacing on larger screens */  }
 }
