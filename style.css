@@ -7,11 +7,12 @@
 }
 
 #showImageBtn {
-    padding: 150px 150px;
-    margin-bottom: 150px;
+    width: 350px;
+    height: 56px;
+    border-radius: 30px;
     cursor: pointer;
-    color: white;
-    background: #0B63F6;
+    color: black;
+    background: #FFFF00;
     font-size:1,4vw;
 }
 
@@ -21,8 +22,7 @@
     object-fit: cover;
 }
 body {
-  background-image: url('background.jpg'); /* Replace with your image URL */
-  background-position: center;
+  background-image: url('background.jpg'); /* Replace with your image URL */  background-position: center;
   background-repeat: no-repeat;
   background-size: 1000% 1000%;
 }
