@@ -15,7 +15,9 @@
     font-size: large;
 }
 
-
+h1{
+    font-weight: 900;
+}
 
 .con {
 
@@ -47,7 +49,7 @@
 
 
 #showImageBtn {
-    width: 600px;
+    width: 800px;
     height: 96px;
     border-radius: 60px;
     cursor: pointer;
@@ -59,12 +61,12 @@
 }
 
 #randomImage {
-    width: 600px;
-    height: 600px;
+    width: 800px;
+    height: 800px;
     object-fit: cover;
 }
 body {
-  background-image: url('https://static.rustore.ru/apk/73871807/content/SCREENSHOT/93ebf1a6-fd8b-4f9f-bdce-c380ca714b2c.jpeg'); /* Replace with your image URL */  background-position: center;
+  background-image: url('https://images.wallpaperscraft.ru/image/single/chernyj_temnyj_fraktal_149686_3840x2160.jpg'); /* Replace with your image URL */  background-position: center;
   background-repeat: no-repeat;
-  backgruond-size: 200% 200%;
+  backgruond-size: 150% 150%;
 }
