@@ -63,5 +63,5 @@ h1{
 body {
   background-image: url('background.jpg');
   background-repeat: no-repeat;
-  backgruond-size: cover;
+  backgruond-size: 1100px 1000px;
 }
