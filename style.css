@@ -1,4 +1,6 @@
 .container {
+    width: 800px;
+    height: 96px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,7 +46,7 @@ h1{
 
 
 #showImageBtn {
-    width: 700px;
+    width: 800px;
     height: 96px;
     border-radius: 60px;
     cursor: pointer;
@@ -56,8 +58,8 @@ h1{
 }
 
 #randomImage {
-    width: 700px;
-    height: 700px;
+    width: 800px;
+    height: 800px;
     object-fit: cover;
 }
 body {
