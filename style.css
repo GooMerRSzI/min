@@ -65,3 +65,9 @@ body {
   background-repeat: no-repeat;
   backgruond-size: 4100px 4000px;
 }
+body {
+  background-image: url('background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  backgruond-size: 3100px 2000px;
+}
