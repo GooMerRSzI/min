@@ -48,21 +48,33 @@ h1{
 
 
 
+.btn-new {
+
+}
+
+.btn-new:hover {
+  transform: translate(0,-3px);
+  box-shadow: 0 20px 40px 0 rgba(11, 99, 246, 1);
+}
+
+
 #showImageBtn {
-    width: 500px;
+    box-shadow: 0 5px 15px 0 rgba(11, 99, 246, 1);
+    transition: 0.5s;
+    width: 800px;
     height: 96px;
     border-radius: 60px;
     cursor: pointer;
-    color: #FFD700;
-    background: #FA8072;
-    font-style: oblique;
+    color: White;
+    background: #00008B;
+    font-style: sans-serif;
     font-size:5vw;
     font-weight: 800;
 }
 
 #randomImage {
-    width: 500px;
-    height: 500px;
+    width: 800px;
+    height: 800px;
     object-fit: cover;
 }
 body {
