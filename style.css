@@ -63,5 +63,5 @@ h1{
 body {
   background-image: url('background.jpg'); /* Replace with your image URL */  background-position: center;
   background-repeat: no-repeat;
-  object-fit: cover;
+  backgruond-size: cover;
 }
