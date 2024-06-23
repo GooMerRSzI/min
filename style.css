@@ -61,7 +61,7 @@ h1{
     object-fit: cover;
 }
 body {
-  background-image: url('background.jpg'); /* Replace with your image URL */  background-position: center;
+  background-image: url('background.jpg');
   background-repeat: no-repeat;
   backgruond-size: cover;
 }
