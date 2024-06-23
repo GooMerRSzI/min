@@ -6,9 +6,15 @@
     font-style: oblique;
     color: #FF00FF;
     font-size:1.4vw;
-    font-weight: 500;
+    font-weight: 300;
+    text-shadow:
+     -2px -2px 0 #000,
+     2px -12px 0 #000,
+     -2px 1px 0 #000,
+     2px 2px 0 #000;
 
 }
+
 
 .con {
 
