@@ -81,6 +81,5 @@ h1{
 }
 body {
   background-image: url('https://images.wallpaperscraft.ru/image/single/tekstura_poverhnost_temnyj_128260_3840x2160.jpg'); /* Replace with your image URL */  background-position: center;
-  background-repeat: repeat-y;
-  backgruond-size: 200% 200%;
+  background-size: 200% 200%;
 }
