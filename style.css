@@ -4,18 +4,20 @@
     align-items: center;
     text-align: center;
     padding: 60px;
-    font-style: sans-serif;
-    color: #FFDEAD;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color: #00BFFF;
     font-size:1.4vw;
     font-weight: 300;
     text-shadow:
      -2px -2px 0 #000,
-     2px -12px 0 #000,
+     2px -1px 0 #000,
      -2px 1px 0 #000,
      2px 2px 0 #000;
     font-size: large;
 }
-
 
 h1{
     font-weight: 900;
@@ -63,7 +65,7 @@ h1{
 #showImageBtn {
     box-shadow: 0 5px 15px 0 rgba(11, 99, 246, 1);
     transition: 0.5s;
-    width: 500px;
+    width: 800px;
     height: 96px;
     border-radius: 60px;
     cursor: pointer;
@@ -75,11 +77,14 @@ h1{
 }
 
 #randomImage {
-    width: 500px;
-    height: 500px;
+    border-radius: 60px;
+    border: 10px solid #56382d;
+    width: 800px;
+    height: 800px;
     object-fit: cover;
 }
 body {
-  background-image: url('https://images.wallpaperscraft.ru/image/single/tekstura_poverhnost_temnyj_128260_3840x2160.jpg'); /* Replace with your image URL */  background-position: center;
-  background-size: 200% 200%;
+  background-position: center;
+  background-image: url('https://i.pinimg.com/564x/5e/62/a7/5e62a7c8baa26301c7f1f1566018de24.jpg'); /* Replace with your image URL */  background-repeat: no-repeat;
+  background-size: 150% 150%;
 }
