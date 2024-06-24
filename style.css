@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     padding: 60px;
-    font-style: oblique;
+    font-style: sans-serif;
     color: #FFDEAD;
     font-size:1.4vw;
     font-weight: 300;
@@ -14,6 +15,7 @@
      2px 2px 0 #000;
     font-size: large;
 }
+
 
 h1{
     font-weight: 900;
