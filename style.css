@@ -65,7 +65,7 @@ h1{
 #showImageBtn {
     box-shadow: 0 5px 15px 0 rgba(11, 99, 246, 1);
     transition: 0.5s;
-    width: 800px;
+    width: 500px;
     height: 96px;
     border-radius: 60px;
     cursor: pointer;
@@ -79,8 +79,8 @@ h1{
 #randomImage {
     border-radius: 60px;
     border: 10px solid #56382d;
-    width: 800px;
-    height: 800px;
+    width: 500px;
+    height: 500px;
     object-fit: cover;
 }
 body {
