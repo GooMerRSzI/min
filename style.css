@@ -8,7 +8,7 @@
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    color: #00BFFF;
+    color: White;
     font-size:1.4vw;
     font-weight: 300;
     text-shadow:
@@ -86,5 +86,5 @@ h1{
 body {
   background-position: center;
   background-image: url('https://i.pinimg.com/564x/5e/62/a7/5e62a7c8baa26301c7f1f1566018de24.jpg'); /* Replace with your image URL */  background-repeat: no-repeat;
-  background-size: 150% 150%;
+  background-size: 190% 190%;
 }
